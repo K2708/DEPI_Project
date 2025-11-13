@@ -17,7 +17,8 @@ import Sharm from './components/Sharm';
 import Red from './components/Red-Sea';
 import Alexandria from './components/Alexandria';
 import Aswan from './components/Aswan';
-// import GovernoratesPage from './components/GovernoratesPage';
+import Contact from './components/Contact';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/Alexandria" element={<Alexandria />} />
             <Route path="/Red" element={<Red />} />
              <Route path="/Sharm " element={<Sharm />} />
+     <Route path="/Contact" element={<Contact />} />
       </Routes>
 
         
